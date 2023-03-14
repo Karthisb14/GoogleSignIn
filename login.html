@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="FullBorder">
+            <!-- <h1>Google</h1> -->
+            <img class="icon" src="/googleicon.png" alt="Google"> 
+            <h3>Sign in</h3>
+            <h4>to continue to Gmail</h4>
+           
+            <div class="textbox">
+                <input type="text" id="email" placeholder="Email or phone" onblur="blur()">
+                <div class="label" id="label" aria-hidden="true">
+                    Email or phone
+                </div>
+
+               <button class="button">Forgot email?</button>
+            </div>
+            <span>
+                <div class="e-flex">
+                    <div class="d-flex">
+                        Not your computer? Use Guest mode to sign in privately.
+                        <a class="button1" href="https://support.google.com/chrome/answer/6130773?hl=en" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </span>
+
+            
+            <div class="action-btn">
+                <div class="demo1">
+                    <button class="button">Create account</button>
+                </div>
+                <div class="demo">
+                    <button class="btn-primary">Next</button>  
+                </div>
+            </div>
+       
+        </div>
+
+        <!-- <script type="text/javascript">
+            function blur(){
+                let x = document.getElementById("label");
+                x.classList.add("d-none")
+            }
+        </script> -->
+    </body>
+</html>

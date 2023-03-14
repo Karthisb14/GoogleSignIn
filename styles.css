@@ -1,0 +1,155 @@
+body{
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.FullBorder{
+    border: 2px solid rgb(233, 230, 230);
+    border-radius: 10px; 
+    width: 450px;
+    margin: auto;
+    height: 500px;
+    margin-top: 52px;
+}
+
+
+.icon{
+    width: 19%;
+    padding-left: 183px;
+    padding-top: 35px;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 154%;
+    font-weight: lighter;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+h4{
+    text-align: center;
+    line-height: 0;
+    font-weight: lighter;
+    color: rgb(44, 43, 43);
+    padding-top: 32px;
+    padding-left: 7px;
+}
+
+.textbox{
+    /* border: 2px solid grey; */
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type=text]{
+    border: 1px solid rgb(209, 200, 200);
+    width: 80%;
+    margin: 1px 44px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 17px;
+    border-radius: 6px;
+    text-indent: 15px;
+    -webkit-text-fill-color: black;
+}
+
+.label{
+    text-align: left;
+    font-size: 15px;
+    position: absolute;
+    top: 238px;
+    margin: 1px 1px 1px 52px;
+    background: white;
+    overflow: hidden;
+    padding: 0 8px;
+    text-overflow: ellipsis;
+    transition: transform 150ms cubic-bezier(0.4,0,0.2,1),opacity 150ms cubic-bezier(0.4,0,0.2,1);
+    white-space: nowrap;
+    width: 101px;
+    z-index: 1;
+    color: #1a75ea;    
+}
+
+
+.d-none{
+    display: none;
+}
+
+input:focus::placeholder {
+    visibility: hidden;  
+}
+
+input:focus{
+    border: 2px solid #1a75ea;
+    outline: none;
+    border-radius: 4px;
+}
+
+.button{
+    color: #1a75ea;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 80%;
+    text-align: left;
+    margin: 4px 45px;
+    font-weight: 700;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.e-flex{
+    width: 80%;
+    margin: 30px 44px;
+    font-size: 14px;
+}
+
+.button1{
+    color: #1a75ea;
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.action-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 6px;
+}
+
+.btn-primary{
+    color: white;
+    background: #1a75ea;
+    cursor: pointer;
+    height: 40px;
+    width: 60%;
+    margin: 4px 46px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+}
+
+.demo{
+    margin-right: 40px; 
+}
+
+
+.demo1{
+    margin-top: 15px; 
+}
+
